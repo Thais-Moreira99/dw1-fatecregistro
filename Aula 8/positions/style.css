@@ -1,0 +1,62 @@
+/* Positions*/
+div.caixa {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 150px;
+}
+/* Static */
+div.static {
+    /* elementos com position static não podem ser deslocados */
+    position:static;
+    background-color: #8cc9e4;
+    top: 100px;
+    left: 400px;
+}
+/* Relative */
+div.relative {
+    position: relative;
+    background-color: #4caf50;
+    top: 50px;
+    left: 200px;
+    z-index: 2;
+}
+
+div.container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    border: 1px dashed black;
+    background-color: #f0f0f0;
+}
+/* Absolute */
+div.absolute {
+    position: absolute;
+    margin: 0;
+    background-color: #ff6347;
+    top: -220px;
+    left: 60px;
+    z-index: 3;
+}
+/* Fixed */
+div.fixed {
+    position: fixed;
+    background-color: #9c27b0;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+/* Sticky */
+div.espaco {
+    height: 900px;
+    background-color: lightcyan;
+}
+div.sticky {
+    position: sticky;
+    background-color: #ff7316;
+    height: 100px;
+    top: 0;
+}
