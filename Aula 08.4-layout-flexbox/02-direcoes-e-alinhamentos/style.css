@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    height: 250px;
+    padding: 20px;
+    background-color: #30302e;
+    margin: 10px;
+}
+
+.card {
+    background-color: #8cc9e4;
+    padding: 20px;
+    margin: 5px;
+    color: #30302e;
+}
+
+.row-center {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-left {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.row-space-between {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-space-around {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardMaior {
+    width: 100px;
+
+}
+
+
+
+
+.sup-esq {
+    display: flex;
+   /* flex-direction: ;column */
+   flex-direction: row;
+   justify-content: left;
+   align-items: flex-start;
+    background-color: #30302e;
+    padding: 20px;
+    height: 300px;
+    /*posições:
+    left: esquerda
+    right: direita
+    flex-start: superior
+    flex-end: imferior*/
+}
+
+div.card {
+    background-color: #8cc9e4;
+    color: #30302e;
+    padding: 20px;
+    margin: 5px;
+    width: 200px;
+
+}
+
+.inf-esq {
+    display: flex;
+   /* flex-direction: ;column */
+   flex-direction: row;
+   justify-content: left;
+   align-items: flex-end;
+    background-color: #30302e;
+    padding: 20px;
+    height: 300px;
+   
+}
+
+.colu-marg {
+    display: flex;
+   /* flex-direction: ;column */
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+    background-color: #30302e;
+    padding: 20px;
+    height: 300px;
+   
+}
+
+.colu-esp {
+    display: flex;
+   /* flex-direction: ;column */
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+    background-color: #30302e;
+
+   
+}
